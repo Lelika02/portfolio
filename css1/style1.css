@@ -4,6 +4,15 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.img{
+    width: 80px;
+}
+.parag{
+    width: 400px;
+    height: 200px;
+    margin-right: 20px;
+}
+
 input[type=submit] {
     background-color: #1255a2;
     color: white;
@@ -39,6 +48,7 @@ input[type=submit] {
     flex-direction: row;
     padding:70px;
     padding-left: 290px;
+    margin-bottom: 50px;
 }
 
 .menu{

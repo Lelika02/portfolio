@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="description" content="Mon portfolio">
     <meta name="keywords" content="Internet, portfolio">
-
+    <link href="../css1/style1.css" rel="stylesheet" type="text/css">
     <title>Mes compétences</title>
    
   </head>
@@ -12,75 +12,83 @@
   <body>
 
     <nav>
-      <ul>
-        <li><a href="index.html">ACCUEIL</a></li>
-        <li><a href="competence.html">COMPETENCES</a></li>
-        <li><a href="parcours.html">PARCOURS</a></li>
-        <li><a href="experience.html">EXPERIENCE</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
-        <li>PORTFOLIO</li>
+      <ul class="menu">
+        <li class="inline"><a href="index.html">ACCUEIL</a></li>
+        <li class="inline"><a href="competence.html">COMPETENCES</a></li>
+        <li class="inline"><a href="parcours.html">PARCOURS</a></li>
+        <li class="inline"><a href="experience.html">EXPERIENCE</a></li>
+        <li class="inline"><a href="contact.html">CONTACT</a></li>
+        <li class="inline">PORTFOLIO</li>
       </ul>
     </nav>
 
-    <h2>MES COMPETENCES</h2>
+    <section class="padding-top">
 
-    <div>
-      <p>
-        <strong>Développement web :</strong></br>
-        - HTML</br>
-        - CSS</br>
-        - PHP</br>
-      </p>
-    </div>
+      <h2 class="centre">MES COMPETENCES</h2>
 
-    <div>
-      <p>
-        <strong>Développement d'applications :</strong></br>
-        - JAVA</br>
-        - C#</br>
-      </p>
-    </div>
+      <div class="centre">
+        <p >
+          <strong>Développement web :</strong></br>
+          - HTML</br>
+          - CSS</br>
+          - PHP</br>
+        </p>
+      </div>
 
-    <div>
-      <p>
-        <strong>Base de données :</strong></br>
-        - SQL</br>
-      </p>
-    </div>
+      <div class="centre">
+        <p>
+          <strong>Développement d'applications :</strong></br>
+          - JAVA</br>
+          - C#</br>
+        </p>
+      </div>
 
-    <div>
-      <p>
-        <strong>Logiciels :</strong></br>
-        - Git</br>
-        - Wampserver</br>
-        - Eclipse</br>
-        - Visual studio code</br> 
-        - Sublime Text</br> 
-        - Visual Studio</br> 
-      </p>
-    </div>
+      <div class="centre">
+        <p>
+          <strong>Base de données :</strong></br>
+          - SQL</br>
+        </p>
+      </div>
 
-    <div>
-        <img src="../images/php.png"
-        alt="php">
-    </div>
+      <div class="centre">
+        <p>
+          <strong>Logiciels :</strong></br>
+          - Git</br>
+          - Wampserver</br>
+          - Eclipse</br>
+          - Visual studio code</br> 
+          - Sublime Text</br> 
+          - Visual Studio</br> 
+        </p>
+      </div>
 
-    <div>
-        <img src="../images/java.jpg"
-        alt="java">
-    </div>
+      <div class="flex-row">
+        <div class="image">
+          <img src="../images/php.png"
+          alt="php">
+         </div>
 
-    <div>
-        <img src="../images/c.png"
-        alt="c">
-    </div>
+        <div class ="img-droite">
+          <img src="../images/java.jpg"
+          alt="java">
+        </div>
+      </div>
+      
+      <div class="flex-row">
+        <div class="image">
+          <img src="../images/c.png"
+          alt="c">
+        </div>
 
-    <div>
-      <img src="../images/sql.png"
-      alt="sql">
-    </div>
+        <div class="img-droite">
+          <img src="../images/sql.png"
+          alt="sql">
+        </div>
+      </div>
+          
+    </section>
     
-    <footer>
+    <footer class="footer centre">
       <p>Bienvenue dans mon portfolio</p>
     </footer>
 

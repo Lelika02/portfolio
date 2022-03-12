@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="description" content="Mon portfolio">
     <meta name="keywords" content="Internet, portfolio">
-
+    <link href="../css1/style1.css" rel="stylesheet" type="text/css">
     <title>Accueil</title>
    
   </head>
@@ -12,35 +12,44 @@
   <body>
 
     <nav>
-      <ul>
-        <li><a href="index.html">ACCUEIL</a></li>
-        <li><a href="competence.html">COMPETENCES</a></li>
-        <li><a href="parcours.html">PARCOURS</a></li>
-        <li><a href="experience.html">EXPERIENCE</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
-        <li>PORTFOLIO</li>
+      <ul class="menu">
+        <li class="inline"><a href="index.html">ACCUEIL</a></li>
+        <li class="inline"><a href="competence.html">COMPETENCES</a></li>
+        <li class="inline"><a href="parcours.html">PARCOURS</a></li>
+        <li class="inline"><a href="experience.html">EXPERIENCE</a></li>
+        <li class="inline"><a href="contact.html">CONTACT</a></li>
+        <li class="inline margin-left">PORTFOLIO</li>
       </ul>
     </nav>
 
-    <div>
-        <h2>PRESENTATION</h2>
-        <p>Je m'appelle TAGATAMANOGI Lelika, 19 ans.</br>
-         Je suis étudiant à l'Université de la Nouvelle-Calédonie en licence</br>
-        professionnelle MIAW(Métiers de l'informatique applications web).</br> J'ai commencé le développment depuis 2020.</br>
-        </p>
-    </div>
+    <section class="padding-top">
 
-    <div>
-        <img src="../images/index.jpg"
-        alt="developpement infirmatique">
-    </div>
-    <div>
-        <video width="320" height="240" controls>
-            <source src=”https://youtu.be/QgjyOOa3jm0” type="video/mp4">
-        </video>
-    </div>
+      <div class="flex-row">
+
+        <div>
+          <img src="../images/index.jpg"
+          alt="developpement infirmatique">
+        </div>
+  
+        <div class="paragraphe">
+          <h2>PRESENTATION</h2>
+          <p>Je m'appelle TAGATAMANOGI Lelika, 19 ans.</br>
+            Je suis étudiant à l'Université de la Nouvelle-Calédonie en licence</br>
+          professionnelle MIAW(Métiers de l'informatique applications web).</br> J'ai commencé le développment depuis 2020.</br>
+          </p>
+        </div>
+      
+      </div>
+  
+      <div class="centre">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xeWnX-Y2ljs" title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       
+      </div>
+
+    </section>
     
-    <footer>
+    
+    <footer class="footer centre">
       <p>Bienvenue dans mon portfolio</p>
     </footer>
 
